@@ -4,13 +4,13 @@ import React from "react";
 const HowWork = () => {
   return (
     <div>
-      <section className="bg-slate-50 py-10">
+      <section className=" py-10">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-800">
+            <h2 className="text-3xl md:text-4xl font-bold">
               How It Works
             </h2>
-            <p className="mt-4 text-slate-500">
+            <p className="mt-4 font-normal text-xl">
               Simple, fast and secure loan process designed for you
             </p>
           </div>

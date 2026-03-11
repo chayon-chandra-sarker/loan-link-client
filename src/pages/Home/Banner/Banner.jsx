@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 const Banner = () => {
   return (
-    <div className="bg-[#F1F1FD]">
+    <div className="">
       <Container>
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-24 py-12 ">
           <div className="text-center lg:text-left lg:w-1/2">
@@ -13,7 +13,7 @@ const Banner = () => {
               Get the Loan You Need, When You Need It
             </h1>
 
-            <p className="text-gray-700 mb-6 lg:mb-8">
+            <p className="font-normal text-xl mb-6 lg:mb-8">
               Whether it's for personal growth, education, or small business,
               our quick and hassle-free loans help you achieve your goals. Safe,
               transparent, and fully online.

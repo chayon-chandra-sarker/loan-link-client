@@ -23,7 +23,7 @@ const ApplyNow = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6 bg-white shadow rounded-xl">
+    <div className="max-w-3xl mx-auto p-6 shadow rounded-xl">
       <h2 className="text-2xl font-bold mb-6 text-center">
         Loan Application Form
       </h2>

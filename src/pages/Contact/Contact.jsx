@@ -3,42 +3,42 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <div className="bg-slate-100 min-h-screen">
+      <div className=" min-h-screen">
         {/* Header */}
-        <section className="py-20">
+        <section className="py-16">
           <div className="max-w-6xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
-            <p className="text-lg text-slate-800 max-w-2xl mx-auto">
+            <p className="text-xl font-normal max-w-2xl mx-auto">
               Have questions or need help? We're here to support you anytime.
             </p>
           </div>
         </section>
 
         {/* Contact Info */}
-        <section className="py-16">
+        <section className="py-10">
           <div className="max-w-6xl mx-auto px-4 grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow text-center border hover:border-red-500 hover:bg-red-50 hover:shadow-xl hover:scale-105 transition transform">
+            <div className=" p-6 rounded-xl shadow text-center border hover:border-red-500 hover:bg-red-50 hover:text-black  hover:shadow-xl hover:scale-105 transition transform">
               <h3 className="text-xl font-semibold mb-2">Email</h3>
-              <p className="text-slate-600">support@loanplatform.com</p>
+              <p className="text-xl font-normal">chayon438.com</p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow text-center border hover:border-red-500 hover:bg-red-50 hover:shadow-xl hover:scale-105 transition transform">
+            <div className=" p-6 rounded-xl shadow text-center border hover:border-red-500 hover:bg-red-50 hover:text-black  hover:shadow-xl hover:scale-105 transition transform">
               <h3 className="text-xl font-semibold mb-2">Phone</h3>
-              <p className="text-slate-600">+880 1234-567890</p>
+              <p className="text-xl font-normal">01779-188207</p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow text-center border hover:border-red-500 hover:bg-red-50 hover:shadow-xl hover:scale-105 transition transform">
+            <div className=" p-6 rounded-xl shadow text-center border hover:border-red-500 hover:bg-red-50 hover:shadow-xl hover:scale-105 hover:text-black  transition transform">
               <h3 className="text-xl font-semibold mb-2">Office</h3>
-              <p className="text-slate-600">Dhaka, Bangladesh</p>
+              <p className="text-xl font-normal">Dhaka, Bangladesh</p>
             </div>
           </div>
         </section>
 
         {/* Contact Form */}
-        <section className="pb-20">
+        <section className="pb-16">
           <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-white rounded-xl shadow p-8">
-              <h2 className="text-3xl font-bold mb-6 text-center text-slate-800">
+            <div className=" rounded-xl shadow p-8">
+              <h2 className="text-4xl font-bold mb-6 text-center">
                 Send Us a Message
               </h2>
 
@@ -60,7 +60,7 @@ const Contact = () => {
                   </label>
                   <input
                     type="email"
-                    placeholder="you@email.com"
+                    placeholder="Your email"
                     className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   />
                 </div>

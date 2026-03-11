@@ -30,11 +30,11 @@ const Login = () => {
       const roleData = await res.json();
       const role = roleData.role;
 
-      localStorage.setItem("userRole", role);
+      localStorage.setItem("userRole", role.toLowerCase());
 
-      if (role === "Admin") {
+      if (role?.toLowerCase() === "Admin") {
         navigate("/dashboard/admin");
-      } else if (role === "Manager") {
+      } else if (role?.toLowerCase() === "Manager") {
         navigate("/dashboard/manager");
       } else {
         navigate("/dashboard/my-loan"); 
@@ -50,8 +50,8 @@ const Login = () => {
   };
 
   return (
-    <div className="bg-slate-100 p-6 rounded-lg w-full md:w-3/5 lg:w-2/5 mx-auto my-10">
-      <h2 className="text-2xl font-bold mb-6 text-center lg:text-left">
+    <div className="shadow  p-6 rounded-lg w-full md:w-3/5 lg:w-2/5 mx-auto my-10">
+      <h2 className="text-4xl font-bold mb-6 text-center lg:text-left">
         Sign in your Account
       </h2>
 
@@ -94,7 +94,7 @@ const Login = () => {
           </div>
 
           {/* Submit button */}
-          <button className="btn btn-neutral w-full mt-2">Login</button>
+          <button className="btn btn-primary w-full mt-2">Login</button>
         </fieldset>
       </form>
 

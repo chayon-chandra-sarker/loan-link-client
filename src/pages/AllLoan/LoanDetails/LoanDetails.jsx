@@ -15,7 +15,7 @@ const LoanDetails = () => {
 
   return (
     <div className="max-w-5xl mx-auto p-6 ">
-      <div className="card bg-gray-50 shadow-lg">
+      <div className="card shadow-lg">
         <figure className="px-10 pt-10">
           <img
             src={image}

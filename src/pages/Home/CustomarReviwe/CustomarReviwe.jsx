@@ -5,12 +5,12 @@ import "swiper/css";
 
 const CustomarReviwe = () => {
   return (
-    <div className="bg-slate-50">
+    <div className="">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-800">
+        <h2 className="text-3xl md:text-4xl font-bold ">
           What Our Customers Say
         </h2>
-        <p className="mt-4 text-slate-500">
+        <p className="mt-4 text-xl font-normal">
           Trusted by thousands of happy customers
         </p>
       </div>
@@ -31,9 +31,9 @@ const CustomarReviwe = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="bg-slate-50  min-w-full px-4">
+          <div className="  min-w-full px-4">
             <div className=" rounded-2xl p-8 shadow">
-              <p className="text-slate-600 italic text-center">
+              <p className=" italic text-center">
                 “The loan process was extremely fast and simple. I received the
                 money within 24 hours.”
               </p>
@@ -43,8 +43,8 @@ const CustomarReviwe = () => {
                   className="w-14 h-14 rounded-full"
                 />
                 <div className="text-left">
-                  <h4 className="font-semibold text-slate-800">Rahim Ahmed</h4>
-                  <p className="text-sm text-slate-500">Small Business Owner</p>
+                  <h4 className="font-semibold ">Rahim Ahmed</h4>
+                  <p className="text-sm ">Small Business Owner</p>
                 </div>
               </div>
             </div>
@@ -53,8 +53,8 @@ const CustomarReviwe = () => {
 
         <SwiperSlide>
           <div className="min-w-full px-4">
-            <div className="bg-slate-50 rounded-2xl p-8 shadow">
-              <p className="text-slate-600 italic text-center">
+            <div className=" rounded-2xl p-8 shadow">
+              <p className=" italic text-center">
                 “Very transparent and trustworthy service. Customer support was
                 really helpful.”
               </p>
@@ -64,8 +64,8 @@ const CustomarReviwe = () => {
                   className="w-14 h-14 rounded-full"
                 />
                 <div className="text-left">
-                  <h4 className="font-semibold text-slate-800">Nusrat Jahan</h4>
-                  <p className="text-sm text-slate-500">Freelancer</p>
+                  <h4 className="font-semibold ">Nusrat Jahan</h4>
+                  <p className="text-sm ">Freelancer</p>
                 </div>
               </div>
             </div>
@@ -74,8 +74,8 @@ const CustomarReviwe = () => {
 
         <SwiperSlide>
           <div className="min-w-full px-4">
-            <div className="bg-slate-50 rounded-2xl p-8 shadow">
-              <p className="text-slate-600 italic text-center">
+            <div className=" rounded-2xl p-8 shadow">
+              <p className=" italic text-center">
                 “Best microloan platform I’ve used. Approval was quick and
                 hassle-free.”
               </p>
@@ -85,8 +85,8 @@ const CustomarReviwe = () => {
                   className="w-14 h-14 rounded-full"
                 />
                 <div className="text-left">
-                  <h4 className="font-semibold text-slate-800">Imran Khan</h4>
-                  <p className="text-sm text-slate-500">Shop Owner</p>
+                  <h4 className="font-semibold">Imran Khan</h4>
+                  <p className="text-sm ">Shop Owner</p>
                 </div>
               </div>
             </div>

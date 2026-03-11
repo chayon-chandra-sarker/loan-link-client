@@ -7,10 +7,10 @@ const LatestLoan = ({ latestLoanPromiss }) => {
   const latestLoans = use(latestLoanPromiss);
 
   return (
-    <div className="bg-gray-100">
+    <div className="">
       <Container>
-        <div className="py-7 font-bold text-4xl text-center">
-          <h2>Available Loans</h2>
+        <div className="py-7 ">
+          <h2 className="font-bold text-4xl text-center">Available Loans</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-3 px-2">
           {latestLoans.map((latestLoan) => (

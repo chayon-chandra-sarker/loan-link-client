@@ -49,8 +49,8 @@ const Register = () => {
   };
 
   return (
-    <div className=" bg-slate-100 p-6 rounded-lg w-full md:w-3/5 lg:w-2/5 mx-auto my-10">
-      <h2 className="text-2xl font-bold mb-6 text-center lg:text-left">
+    <div className="shadow  p-6 rounded-lg w-full md:w-3/5 lg:w-2/5 mx-auto my-10">
+      <h2 className="text-4xl font-bold mb-6 text-center lg:text-left">
         Create an Account
       </h2>
 
@@ -137,7 +137,7 @@ const Register = () => {
             )}
           </div>
           {/* Button */}
-          <button className="btn btn-neutral w-full mt-2">Register</button>
+          <button className="btn btn-primary w-full mt-2">Register</button>
         </fieldset>
       </form>
       <SocialLogin></SocialLogin>

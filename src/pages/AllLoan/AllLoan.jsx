@@ -7,7 +7,7 @@ const loansPromise = fetch("https://loan-link-api.vercel.app/loans").then(
 
 const AllLoan = () => {
   return (
-    <div className="bg-gray-200">
+    <div className="">
       <Container>
         <div className="py-10 ">
           <LoansContanet loansPromise={loansPromise}></LoansContanet>
