@@ -48,10 +48,10 @@ Secure Firebase Authentication
 Environment Variables for sensitive data
 
 6️⃣ Live Link
-Live Link: https://bank-loan-37285.web.app/
-Client repo: https://github.com/Chayon-Chandra/loan-link-client
-Server repo: https://github.com/Chayon-Chandra/loan-link-server
-Live Server: https://loan-link-api.vercel.app
+Live Link: https://loan-link-client-self.vercel.app/
+Client repo: https://github.com/chayon-chandra-sarker/loan-link-client
+Server repo: https://github.com/chayon-chandra-sarker/loan-link-server
+
 
 7️⃣ Conclusion
 
